@@ -1,0 +1,23 @@
+.group-form-comment {
+    border-radius: 8px;
+    padding: 10px 40px;
+    background-color: #fff;
+    box-shadow: 0 1px 6px rgb(239, 233, 242);
+    border: 1px solid rgb(239, 233, 242);
+}
+.group-form-comment .ant-comment-nested {
+    margin-left: 0 !important;
+}
+.group-comment .container-comment .ant-avatar{
+    width: 50px;
+    height: 50px;
+}
+.group-comment .container-comment .ant-comment-avatar img{
+    width: 50px;
+    height: 50px;
+}
+@media screen and (max-width:1000px){
+    .group-form-comment{
+        margin: 0 10px;
+    }
+}
